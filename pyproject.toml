@@ -1,0 +1,12 @@
+[project]
+name = "uchet_dou"
+version = "1.0.0"
+description = "Учет дополнительных услуг ДОУ"
+requires-python = ">=3.10"
+dependencies = [
+    "flet==0.84.0",
+    "requests==2.33.1"
+]
+
+[tool.flet]
+module_name = "src.main"
